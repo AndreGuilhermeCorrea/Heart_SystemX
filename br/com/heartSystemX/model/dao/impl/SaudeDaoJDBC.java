@@ -85,9 +85,7 @@ public class SaudeDaoJDBC implements SaudeDAO {
 
 	@Override
 	public void update(Saude objSaude) {
-		PreparedStatement pst = null;
-		System.out.println(objSaude);
-		
+		PreparedStatement pst = null;	
 		String campos = "cpf=?, data=?, tabagista=?, etilista=?, "
 				+ "dieta=?, faltaDeAr=?,  vidaSexualAtiva=?, usoDeMedicacao=?, "
 				+ "diabetes=?, dorNoPeito=?, hipertensao=?, colesterolAlto=?, "
