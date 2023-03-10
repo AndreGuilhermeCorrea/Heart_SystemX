@@ -9,8 +9,8 @@ import javax.swing.JOptionPane;
 import br.com.heartSystemX.controller.Icontroller;
 import br.com.heartSystemX.model.entities.ClienteView;
 import br.com.heartSystemX.model.entities.PsicoAltoRisco;
-import br.com.heartSystemX.model.service.ClienteService;
-import br.com.heartSystemX.model.service.PsicoAltoRiscoService;
+import br.com.heartSystemX.model.service.impl.ClienteService;
+import br.com.heartSystemX.model.service.impl.PsicoAltoRiscoService;
 import br.com.heartSystemX.view.FormPsicoAltoRiscoSwing;
 
 public class FormPsicoAltoRiscoCT implements Icontroller {

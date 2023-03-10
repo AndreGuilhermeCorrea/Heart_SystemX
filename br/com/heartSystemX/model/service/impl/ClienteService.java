@@ -1,4 +1,4 @@
-package br.com.heartSystemX.model.service;
+package br.com.heartSystemX.model.service.impl;
 
 import java.text.DateFormat;
 import java.text.ParseException;

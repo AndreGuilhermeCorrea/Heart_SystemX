@@ -3,7 +3,7 @@ package br.com.heartSystemX.controller.impl;
 import javax.swing.JOptionPane;
 import br.com.heartSystemX.controller.Icontroller;
 import br.com.heartSystemX.model.entities.Usuario;
-import br.com.heartSystemX.model.service.UsuarioService;
+import br.com.heartSystemX.model.service.impl.UsuarioService;
 import br.com.heartSystemX.view.FormUsuarioSwing;
 
 public class FormUsuarioCT implements Icontroller {

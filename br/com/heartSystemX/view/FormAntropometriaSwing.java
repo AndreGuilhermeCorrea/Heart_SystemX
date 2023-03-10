@@ -546,7 +546,7 @@ public class FormAntropometriaSwing extends JFrame implements Serializable {
 		tfPedometroMedia = new JTextField();
 		tfPedometroMedia.setFont(new Font("Trebuchet MS", Font.PLAIN, 14));
 		tfPedometroMedia.setEditable(false);
-		tfPedometroMedia.setBounds(641, 58, 42, 22);
+		tfPedometroMedia.setBounds(641, 58, 97, 22);
 		contentPane.add(tfPedometroMedia);
 
 		tfPedometroClass = new JTextField();
@@ -600,7 +600,7 @@ public class FormAntropometriaSwing extends JFrame implements Serializable {
 		tfRiscoSaude = new JTextField();
 		tfRiscoSaude.setFont(new Font("Trebuchet MS", Font.PLAIN, 14));
 		tfRiscoSaude.setEditable(false);
-		tfRiscoSaude.setBounds(442, 107, 128, 22);
+		tfRiscoSaude.setBounds(442, 107, 205, 22);
 		contentPane.add(tfRiscoSaude);
 
 		tfSentarAlcanca = new JTextField();

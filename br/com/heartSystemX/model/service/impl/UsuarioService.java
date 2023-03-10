@@ -1,4 +1,4 @@
-package br.com.heartSystemX.model.service;
+package br.com.heartSystemX.model.service.impl;
 
 import br.com.heartSystemX.model.dao.impl.UsuarioDaoJDBC;
 import br.com.heartSystemX.model.entities.Usuario;

@@ -7,10 +7,11 @@ import java.text.SimpleDateFormat;
 import javax.swing.JOptionPane;
 
 import br.com.heartSystemX.controller.Icontroller;
+import br.com.heartSystemX.controller.utils.CalculoCT;
 import br.com.heartSystemX.model.entities.Antropometria;
 import br.com.heartSystemX.model.entities.ClienteView;
-import br.com.heartSystemX.model.service.AntropometriaService;
-import br.com.heartSystemX.model.service.ClienteService;
+import br.com.heartSystemX.model.service.impl.AntropometriaService;
+import br.com.heartSystemX.model.service.impl.ClienteService;
 import br.com.heartSystemX.view.FormAntropometriaSwing;
 
 //classe controladora 
@@ -21,6 +22,7 @@ public class FormAntropometriaCT implements Icontroller {
 	private ClienteView objClient;
 	private ClienteService servicoClient;
 	private AntropometriaService servicoAntro;
+	private CalculoCT calc;
 
 	// envia solicitação para camada de serviço e retorna objeto carregado
 	private ClienteView pesquisaView(String cpf) {
@@ -36,12 +38,10 @@ public class FormAntropometriaCT implements Icontroller {
 		return objAntrop;
 	}
 
-	// envia solicitação do cálculo para camada de serviço e retorna objeto
+	// envia solicitação para classe CalculoCT no método cálculo e retorna objeto
 	private Antropometria calcular(Antropometria objAntrop) {
-		servicoAntro = new AntropometriaService();
-		Antropometria resultado;
-		resultado = servicoAntro.calcular(objAntrop);
-		return resultado;
+		calc = new CalculoCT();
+		return calc.calcular(objAntrop);
 	}
 
 	// pesquisa cliente cadastrado SWING
@@ -134,8 +134,7 @@ public class FormAntropometriaCT implements Icontroller {
 		frame = instanciaForm(objAntrop);
 	}
 
-	// realiza os calculos atravéz da camada de serviço de acordo com dados
-	// inseridos no frame e retorna no objeto
+	// método para setar o frame com os calculos
 	public void calc(Object view) {
 		frame = (FormAntropometriaSwing) view;
 		objAntrop = new Antropometria();
@@ -166,7 +165,7 @@ public class FormAntropometriaCT implements Icontroller {
 			JOptionPane.showMessageDialog(null, "Date Error!: " + e.getMessage());
 		}
 
-		// chama o método da camada de serviço passando o objeto para realização dos
+		// chama o método calcular da classe passando o objeto para realização dos
 		// calculos
 		calcular(objAntrop);
 

@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 import br.com.heartSystemX.controller.Icontroller;
 import br.com.heartSystemX.model.entities.Cliente;
-import br.com.heartSystemX.model.service.ClienteService;
+import br.com.heartSystemX.model.service.impl.ClienteService;
 import br.com.heartSystemX.view.FormClienteSwing;
 
 public class FormClienteCT implements Icontroller {

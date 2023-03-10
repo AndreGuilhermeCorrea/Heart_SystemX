@@ -9,8 +9,8 @@ import javax.swing.JOptionPane;
 import br.com.heartSystemX.controller.Icontroller;
 import br.com.heartSystemX.model.entities.ClienteView;
 import br.com.heartSystemX.model.entities.Familia;
-import br.com.heartSystemX.model.service.ClienteService;
-import br.com.heartSystemX.model.service.FamiliaService;
+import br.com.heartSystemX.model.service.impl.ClienteService;
+import br.com.heartSystemX.model.service.impl.FamiliaService;
 import br.com.heartSystemX.view.FormFamiliaSwing;
 
 public class FormFamiliaCT implements Icontroller {

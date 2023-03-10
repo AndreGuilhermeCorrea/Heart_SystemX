@@ -72,8 +72,5 @@ Esse não é apenas um repositório sobre saúde!
 
 ![2023-02-10 (16)](https://user-images.githubusercontent.com/105138998/218114378-8ffe3088-ef48-4a86-aa7a-f926390dd052.png)
 
-<p><strong>Diagrama Entidade Relacionamento</p></strong>
-
-![image](https://user-images.githubusercontent.com/105138998/218240376-1840f2cb-0541-407e-b812-c59ecf335163.png)
 
 

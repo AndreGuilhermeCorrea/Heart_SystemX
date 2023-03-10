@@ -9,8 +9,8 @@ import javax.swing.JOptionPane;
 import br.com.heartSystemX.controller.Icontroller;
 import br.com.heartSystemX.model.entities.ClienteView;
 import br.com.heartSystemX.model.entities.Psico;
-import br.com.heartSystemX.model.service.ClienteService;
-import br.com.heartSystemX.model.service.PsicoService;
+import br.com.heartSystemX.model.service.impl.ClienteService;
+import br.com.heartSystemX.model.service.impl.PsicoService;
 import br.com.heartSystemX.view.FormPsicoSwing;
 
 public class FormPsicoCT implements Icontroller {
