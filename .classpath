@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="src" path=""/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ConectorMysql"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JFX"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JDK"/>
-	<classpathentry kind="output" path=""/>
-</classpath>
