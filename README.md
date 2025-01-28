@@ -62,7 +62,8 @@ Essa tela permite cadastrar um novo usuário no sistema.
 
 ### **Home**
 
-A tela principal do sistema exibe um menu com as opções disponíveis para o usuário. 
+A tela principal do sistema exibe um menu com as opções disponíveis para o usuário.
+
 ![Home](img/home.png)
 
 ### **Inclusão de Usuário**
