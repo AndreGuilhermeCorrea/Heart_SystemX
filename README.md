@@ -74,6 +74,7 @@ A tela de inclusão de usuário permite adicionar informações pessoais e de sa
 ### **Inclusão de Informações de Saúde**
 
 A tela de inclusão de informações de saúde permite adicionar registros relacionados ao histórico de saúde de um usuário. 
+
 ![Inclusao](img/includeHSaude.png)
 
 ### **Inclusão de Informações de Saúde da Família**
@@ -94,7 +95,7 @@ A tela de inclusão de informações de saúde psicológica de alto risco permit
 
 ![Inclusao](img/includeHSaudePsicoAR.png)
 
-### **Calculos*
+### **Calculos**
 
 A tela de cálculos exibe os resultados de cálculos específicos baseados nos registros da saúde física e dados antropométricos de um usuário.
 
@@ -124,7 +125,10 @@ Abaixo segue alguns insights extraídos da análise dos dados do sistema em Exce
 
 - [JAVA](https://www.w3schools.com/java/java_ref_reference.asp)
 - [Udemy](https://www.udemy.com/course/java-curso-completo/)
-- [Nelio Alves](https://www.udemy.com/user/nelio-alves/)
+- [Eclipse](https://www.eclipse.org/)
+- [MySQL](https://www.mysql.com/)
+- [WindowBuilder](https://www.eclipse.org/windowbuilder/)
+- [Swing](https://docs.oracle.com/javase/7/docs/api/javax/swing/package-summary.html)
 
 ## 👩‍💻 Autor
 
