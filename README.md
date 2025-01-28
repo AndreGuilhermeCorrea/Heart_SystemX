@@ -1,76 +1,131 @@
 # Heart_SystemX
-This is not just a repository about healt!
-Esse não é apenas um repositório sobre saúde!
-<p><strong>O projeto Atividade F&iacute;sica:</strong></p>
 
-<p><em>A medicina &eacute; uma ci&ecirc;ncia social e a pol&iacute;tica nada mais &eacute; do que a medicina em grande escala (VIRCHOW, 1972 apud ROSEN, 1979).</em></p>
+![Java](https://img.shields.io/badge/java-000.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
+![GIT](https://img.shields.io/badge/git-000.svg?style=for-the-badge&logo=git&logoColor=white)
+![Udemy](https://img.shields.io/badge/udemy-000.svg?style=for-the-badge&logo=udemy&logoColor=white)
+![Eclipse](https://img.shields.io/badge/eclipse-000.svg?style=for-the-badge&logo=eclipse&logoColor=white)
 
-<p>O avan&ccedil;o tecnol&oacute;gico permite ao mundo facilidades incr&iacute;veis que v&atilde;o al&eacute;m do conforto, entretanto, h&aacute; um aumento significativo de doen&ccedil;as cr&ocirc;nicas como diabetes, hipertens&atilde;o, c&acirc;ncer, acidente vascular encef&aacute;lico entre tantas outras.</p>
+## 📌 Sobre o projeto
 
-<p>Problemas como obesidade, desconfortos, estresse, baixa-estima, sedentarismo, alto uso de &aacute;lcool, tabaco, medicamentos e outras drogas e a constante procura por m&eacute;dicos. Parte desse caos est&aacute; diretamente relacionado a falta de atividade f&iacute;sica, portanto essa pr&aacute;tica protege e promove a sa&uacute;de na popula&ccedil;&atilde;o e &eacute; considerada lazer, al&eacute;m de manter uma boa forma f&iacute;sica e melhorar a qualidade de vida, autoimagem e autoestima do praticante, promovendo bem-estar.</p>
+Heart_SystemX foi desenvolvido em 2023 como parte do meu aprendizado em Java, com foco em Programação Orientada a Objetos (POO). O projeto simula um sistema de saúde cujo objetivo é monitorar, quantificar e qualificar informações relacionadas à saúde de uma pessoa ou de um grupo de pessoas.
 
-<p>A fim de garantir o direito &agrave; sa&uacute;de e o respeito &agrave; vida, faz-se necess&aacute;rio a promo&ccedil;&atilde;o de pol&iacute;ticas p&uacute;blicas que devem se dar por meio de programas de estrat&eacute;gias para redu&ccedil;&atilde;o de morbimortalidade de agravos n&atilde;o transmiss&iacute;veis, fazendo necess&aacute;rio a atua&ccedil;&atilde;o de atores sociais baseados nos princ&iacute;pios do SUS.</p>
+O sistema possui uma interface gráfica (GUI) desenvolvida com Swing e WindowBuilder, e adota o padrão de arquitetura Model-View-Controller (MVC). Ele também utiliza um banco de dados relacional MySQL para armazenar informações de saúde, promovendo a prática de conceitos como acesso a dados com DAO (Data Access Object).
 
-<p><strong>A Aplica&ccedil;&atilde;o:</strong></p>
+O objetivo principal do Heart_SystemX é oferecer uma ferramenta que ilustra, de forma prática, como conceitos de POO podem ser aplicados para resolver problemas do mundo real, especificamente na área da saúde.
 
-<p>O objetivo desse projeto &eacute; servir como Portf&oacute;lio, auxiliar no aprendizado de maneira geral, tal como as diversidades e as possibilidades do incr&iacute;vel JAVA.</p>
+## 🧬 Sobre saúde
 
-<p>Por hora essa aplica&ccedil;&atilde;o contou com a utiliza&ccedil;&atilde;o de:</p>
+*A medicina é uma ciência social e a política nada mais é do que a medicina em grande escala (VIRCHOW, 1972 apud ROSEN, 1979).*
 
-<ul>
-	<li>Ambiente de desenvolvimento ECLIPSE IDE 2022-09;</li>
-	<li>WindowBuilder para auxiliar no desenvolvimento do GUI -JDK 17.0.6 (openjdk);</li>
-	<li>Padr&atilde;o model view controller (MVC);</li>
-	<li>Data Access Object (DAO);</li>
-	<li>MySql, WorkBench; e</li>
-	<li>API Swing compat&iacute;vel com Abstract Window Toolki (awt).</li>
-</ul>
+O projeto é inspirado na importância da saúde física e mental como pilares para o bem-estar e a qualidade de vida. Ele aborda questões como o monitoramento de indicadores de saúde, promovendo a conscientização sobre hábitos saudáveis e a importância da atividade física. Por meio de registros e cálculos, o sistema auxilia na análise de dados relacionados à saúde pessoal ou de um grupo familiar.
 
-<p>Telas:</p>
+A saúde, como direito fundamental, deve ser promovida e protegida por políticas públicas. O Heart_SystemX, mesmo sendo um projeto didático, reflete essa premissa ao propor a utilização de tecnologia para a gestão de informações de saúde.
 
-<p>Login</p>
+## 🛠️ Conceitos de Programação Utilizados
 
-![2023-02-10](https://user-images.githubusercontent.com/105138998/218111282-7082082c-d72e-45ce-890f-0a123d828457.png)
+- **Programação Orientada a Objetos (POO)**: Encapsulamento, herança, polimorfismo, composição.
+- **Tratamento de Dados**: Matrizes, listas, sobrescrita de métodos, sobrecarga, equals e hashCode.
+- **Estrutura de Classes**: Classe abstrata, interface, métodos estáticos e abstratos, construtores.
+- **Acesso a Dados**: Padrão DAO (Data Access Object) para interação com MySQL.
+- **Arquitetura**: Padrão MVC (Model-View-Controller).
 
-<p>Tela Principal</p>
+## 🚀 Tecnologias Utilizadas
 
-![2023-02-10 (2)](https://user-images.githubusercontent.com/105138998/218111655-7e2eb0b1-aa5d-4879-aefe-fc95ba0cbc74.png)
+- **Linguagem**: Java (JDK 17.0.6)
+- **Interface Gráfica**: Swing e WindowBuilder
+- **Banco de Dados**: MySQL e Workbench
+- **Padrão Arquitetural**: Model-View-Controller (MVC)
 
-<p>Tela inclus&atilde;o, exclus&atilde;o e atualiza&ccedil;&atilde;o de Usu&aacute;rio do sistema</p>
+## 🎮 Funcionalidades do Sistema
 
-![2023-02-10 (3)](https://user-images.githubusercontent.com/105138998/218112055-ec3b867f-4ef7-431b-bcdf-a0d54e0bb155.png)
+- **Login**: Sistema seguro de autenticação.
+- **Cadastro de Usuários**: Inclusão e gerenciamento de informações pessoais e de saúde.
+- **Gestão de Indicadores de Saúde**: Registros relacionados à saúde física, mental e familiar.
+- **Análise e Cálculos**: Cálculos específicos baseados nos registros de saúde.
+- **Interface Gráfica**: Uso de uma GUI para tornar o sistema mais intuitivo e acessível.
 
-<p>Tela inclus&atilde;o, exclus&atilde;o e atualiza&ccedil;&atilde;o de Cliente Usu&aacute;rio do servi&ccedil;o</p>
+## 🖥️ Interface Gráfica
 
-![2023-02-10 (4)](https://user-images.githubusercontent.com/105138998/218112325-3f344a19-1416-4306-9fa2-dab2b3c8ea8d.png)
+O sistema possui uma interface gráfica (GUI) desenvolvida com Swing e WindowBuilder. A interface é intuitiva e amigável, facilitando a interação do usuário com o sistema. A seguir, são apresentadas as principais telas do sistema.
 
-<p>Tela inclus&atilde;o, exclus&atilde;o e atualiza&ccedil;&atilde;o do hist&oacute;rico de sa&uacute;de usu&aacute;rio do servi&ccedil;o</p>
+### **Tela de Login**
 
-![2023-02-10 (5)](https://user-images.githubusercontent.com/105138998/218112777-3d740717-7763-47bb-af97-a280cf9da212.png)
+A tela de login é a primeira a ser exibida ao abrir o sistema. Ela solicita o nome de usuário e a senha para autenticação. Caso as credenciais sejam válidas, o usuário é redirecionado para a tela principal do sistema.
 
-<p>Tela inclus&atilde;o, exclus&atilde;o e atualiza&ccedil;&atilde;o do hist&oacute;rico de sa&uacute;de familiar do usu&aacute;rio do servi&ccedil;o</p>
+![Login](img/login.png)
 
-![2023-02-10 (6)](https://user-images.githubusercontent.com/105138998/218114037-390bc2c0-ce8f-4883-b78c-1c4523056225.png)
+### **Tela de Cadastro de Usuário do Sistema**
 
-<p>Tela inclus&atilde;o, exclus&atilde;o e atualiza&ccedil;&atilde;o do hist&oacute;rico antropom&eacute;trico usu&aacute;rio do servi&ccedil;o</p>
+Essa tela permite cadastrar um novo usuário no sistema. 
 
-![2023-02-10 (7)](https://user-images.githubusercontent.com/105138998/218113209-a55ddc73-0584-48b8-84a1-a20d64d81aef.png)
+![Inclusao](img/includes.png)
 
-<p>Tela inclus&atilde;o, exclus&atilde;o e atualiza&ccedil;&atilde;o do hist&oacute;rico psicol&oacute;gico usu&aacute;rio do servi&ccedil;o</p>
+### **Home**
 
-![2023-02-10 (8)](https://user-images.githubusercontent.com/105138998/218113508-57ce505d-8616-4444-afad-472f2f70fa10.png)
+A tela principal do sistema exibe um menu com as opções disponíveis para o usuário. 
+![Home](img/home.png)
 
-<p>Tela inclus&atilde;o, exclus&atilde;o e atualiza&ccedil;&atilde;o do hist&oacute;rico psicol&oacute;gico de alto risco usu&aacute;rio do servi&ccedil;o</p>
+### **Inclusão de Usuário**
 
-![2023-02-10 (10)](https://user-images.githubusercontent.com/105138998/218113744-917af7c5-988a-4079-a664-c63f6adfb732.png)
+A tela de inclusão de usuário permite adicionar informações pessoais e de saúde de um novo usuário. 
 
-<p>Tela de informa&ccedil;&otilde;es referentes ao programa <strong>**ainda em desenvolvimento</strong>**</p>
+![Inclusao](img/includeUser.png)
 
-![2023-02-10 (11)](https://user-images.githubusercontent.com/105138998/218114797-dbc585f1-d893-4787-a97f-37a849d7d342.png)
+### **Inclusão de Informações de Saúde**
 
-<p>Janela JOptionPane (Logout sistema)</p>
+A tela de inclusão de informações de saúde permite adicionar registros relacionados ao histórico de saúde de um usuário. 
+![Inclusao](img/includeHSaude.png)
 
-![2023-02-10 (16)](https://user-images.githubusercontent.com/105138998/218114378-8ffe3088-ef48-4a86-aa7a-f926390dd052.png)
+### **Inclusão de Informações de Saúde da Família**
 
+A tela de inclusão de informações de saúde da família permite adicionar registros relacionados ao histórico de saúde de familiares de um usuário.
 
+![Inclusao](img/includeHSaudeFamilia.png)
 
+### **Inclusão de Informações de Saúde Psicológica**
+
+A tela de inclusão de informações de saúde psicológica permite adicionar registros relacionados ao estado de saúde mental de um usuário. 
+
+![Inclusao](img/includeHSaudePsico.png)
+
+### **Inclusão de Informações de Saúde Psicológica Alto Risco**
+
+A tela de inclusão de informações de saúde psicológica de alto risco permite adicionar registros relacionados ao estado de saúde mental de um usuário em situação de risco. 
+
+![Inclusao](img/includeHSaudePsicoAR.png)
+
+### **Calculos*
+
+A tela de cálculos exibe os resultados de cálculos específicos baseados nos registros da saúde física e dados antropométricos de um usuário.
+
+![Calculo](img/calculo.png)
+
+### **Sobre**
+
+A tela de sobre exibe informações sobre o sistema e o desenvolvedor.
+
+![Sobre](img/about.png)
+
+### **Sair**
+
+A opção de sair encerra a sessão do usuário e fecha o sistema.
+
+![Exit](img/exit.png)
+
+## 🧭 História do Projeto
+
+Em 2014 tive a oportunidade de trabalhar em um projeto de pesquisa na área de saúde, que envolvia a coleta e análise de dados de saúde de usuários. A experiência me despertou o interesse em desenvolver um sistema que pudesse auxiliar na gestão de informações de saúde, promovendo a conscientização sobre hábitos saudáveis e a importância da atividade física. Na época eu nao tinha conhecimento em programação, mas sempre tive vontade de aprender, nesse sentido fiz um curso de Excel avançado e dei inicio ao levantamento dos dados e a criação de um sistema de gestão de informações de saúde. Se tratava de um sistema em excel, contava com diversas planilhas e gráficos, botões interativos, uso de macros, VBA, formulários, filtros, validações, etc. O sistema foi muito útil para a equipe de pesquisa, pois permitia a análise de dados de forma rápida e eficiente com base nas informações coletadas. O sistema foi utilizado por um período de 2 anos, e foi muito útil para a equipe de pesquisa, fornecendo insights valiosos sobre a saúde dos usuários.
+
+Abaixo segue alguns insights extraídos da análise dos dados do sistema em Excel:
+ 
+![Histórico de saúde](img/graficoSaude.png)
+
+## 📚 Referências
+
+- [JAVA](https://www.w3schools.com/java/java_ref_reference.asp)
+- [Udemy](https://www.udemy.com/course/java-curso-completo/)
+- [Nelio Alves](https://www.udemy.com/user/nelio-alves/)
+
+## 👩‍💻 Autor
+
+- *Andre Guilherme Correa* | [correandre8@gmail.com](mailto:correandre8@gmail.com)
